@@ -1,0 +1,360 @@
+body {
+    font-family: 'Poppins';
+    background-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+#navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black; 
+    z-index: 1000; 
+}
+
+#navigation .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s; 
+}
+
+#navigation .navbar-nav .nav-item .nav-link:hover,
+#navigation .navbar-nav .nav-item .nav-link.active {
+    color: #24FFDD; 
+}
+
+/* Home */
+
+#home {
+    margin-top: 100px;
+}
+
+#home h1{
+    font-size: 48px;
+    color: white;
+}
+
+#home p{
+    font-size: 18px;
+    color: white;
+}
+
+/* Superiority */
+
+#superiority {
+    background-color: #1391AD;
+    padding: 10px;
+}
+
+#superiority p {
+    font-size: 30px;
+    font-style: italic;
+    color: white; 
+    line-height: 1.5; 
+    margin: 0; 
+}
+
+#superiority .col {
+    transition: background-color 0.3s, color 0.3s, border-bottom-color 0.3s; 
+    border-bottom: 2px solid transparent; 
+}
+
+#superiority .col:hover {
+    cursor: pointer; 
+    border-bottom-color: #333; 
+}
+
+#superiority .col p {
+    transition: color 0.3s; 
+}
+
+#superiority .col:hover p {
+    color: #333; 
+}
+
+/* Player */
+
+.player {
+    position: relative;
+    top: 80px;
+}
+
+.player-icon img {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    width: 70px; 
+    height: 70px;
+    transition: transform 0.2s ease-in-out; 
+    cursor: pointer;
+}
+
+.player-icon img:hover {
+    transform: scale(1.1); 
+}
+
+.player-icon img:active {
+    transform: scale(0.9);
+}
+
+
+/* About */
+
+#about {
+    background-color: #05242B;
+    height: 80vh;
+}
+
+.about {
+    top: 120px;
+    position: relative;
+}
+
+.about h1{
+    font-size: 48px;
+    color: white;
+}
+
+.about p{
+    font-size: 18px;
+    color: white;
+}
+
+.about h5 {
+    font-size: 32px;
+    padding: 10px;
+}
+
+.about a {
+    text-decoration: none;
+}
+
+.btn-about {
+    border-radius: 30px;
+    background: linear-gradient(to right, #24FFDD, #1391AD);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s; 
+}
+
+.btn-about:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+.contact {
+    width: 444px;
+    margin: 10px;
+    height: 360px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    transition: box-shadow 0.3s; 
+}
+
+.contact:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); 
+}
+
+/* Trainer */
+
+#trainer h1{
+    font-size: 48px;
+    color: white;
+}
+
+#trainer h2{
+    font-size: 25px;
+    color: white;
+}
+
+#trainer p{
+    font-size: 18px;
+    color: white;
+}
+
+#trainer .text-trainer {
+    text-align: left;
+}
+
+/* Review */
+
+#review img {
+    width: 100px;
+}
+
+#review h1{
+    padding: 20px;
+    font-size: 48px;
+    color: white;
+}
+
+#review .card {
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s; 
+}
+
+#review .card:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); 
+}
+
+
+
+/* Footer */
+
+#footer .bg-member {
+    background-color: #1AB9BF;
+    padding: 10px;
+}
+
+.btn-contact {
+    background-color: #F4CD00;
+    color: white; 
+    border-radius: 5px; 
+    border: none;
+    cursor: pointer; 
+    transition: box-shadow 0.3s;
+}
+
+.btn-contact:hover {
+    background-color: orange; 
+    color: black; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  
+}
+
+
+#footer a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#footer h1{
+    padding: 20px;
+    font-size: 48px;
+    color: white;
+}
+
+#footer .bg-footer {
+    background-color: #107578;
+}
+
+#footer img {
+    width: 250px;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#footer hr {
+    color: white;
+}
+
+#footer a:hover {
+    color: black;
+}
+
+#footer p {
+    padding: 20px;
+    color: white;
+}
+
+
+/* Responsive untuk Tablet */
+@media (max-width: 992px) {
+    #superiority p {
+        font-size: 24px; 
+    }
+
+    .contact {
+        margin: 40px auto 10px; 
+        position: relative;
+        right: auto; 
+        border-radius: 20px;
+        padding-bottom: 20px; 
+    }
+
+    #about {
+        background-color: #05242B;
+        height: 85vh;
+    }
+
+    #trainer .text-trainer {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #trainer .heading-trainer {
+        text-align: center;
+    }
+
+    #review .card-review {
+        text-align: center;
+    }
+
+    #footer h1 {
+        text-align: center;
+    }
+}
+
+/* Responsive untuk Mobile */
+@media (max-width: 576px) {
+    #superiority {
+        padding: 10px; 
+    }
+    #superiority p {
+        font-size: 20px; 
+    }
+
+    .player-icon img {
+        width: 50px; 
+        height: 50px;
+    }
+
+    .contact {
+        width: 100%; 
+        height: 450px;
+        margin: 40px auto 10px; 
+        position: relative; 
+        right: auto; 
+        border-radius: 20px; 
+    }
+
+    #about {
+        background-color: #05242B;
+        height: 150vh;
+    }
+
+    #trainer .text-trainer {
+        text-align: center;
+        padding: 20px;
+    }
+
+    #trainer .heading-trainer {
+        text-align: center;
+    }
+
+    #review .card-review {
+        text-align: center;
+    }
+
+    #footer h1 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Fitness</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<section id="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark py-4">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trainer">Trainer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#review">Review</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+
+<!-- Header -->
+<section id="home">
+    <header class="container py-2"> 
+        <div class="row">
+            <div class="col-md-12 py-2">
+                <div class="img-container">
+                    <img src="img/img-section-1.png" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+        <div class="row p-4">
+            <div class="col-md-6">
+                <h1 class="display-4">We Don't Just Practice But Calm the Soul</h1>
+            </div>
+            <div class="col-md-6">
+                <p class="lead"> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod diam nulla, a ultricies mauris vestibulum sit amet. Maecenas vulputate sem id tortor fringilla, nec fermentum lorem dictum.
+                </p>
+            </div>
+        </div>
+    </header>
+</section>
+
+
+<!-- Superiority Section -->
+<section id="superiority">
+    <div class="container-fluid py-3">
+        <div class="row row-cols-1 row-cols-md-4 g-4"> 
+            <div class="col text-center">
+                <p>Beginner Friendly</p>
+            </div>
+            <div class="col text-center">
+                <p>Solid Community</p>
+            </div>
+            <div class="col text-center">
+                <p>Free Consultation</p>
+            </div>
+            <div class="col text-center">
+                <p>Trainer Professional</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Player Section -->
+<section id="player">
+    <div class="container player">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="img-container position-relative">
+                    <img src="img/img-section-2.png" class="img-fluid" alt="Responsive image">
+                    <div class="player-icon position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#videoModal"> 
+                        <img src="img/play.png" alt="Player Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">Video Preview</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- About Section -->
+<section id="about">
+    <div class="container-fluid py-3">
+        <div class="container about">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Fitness is The Best Solution For You</h1>
+                    <p class="py-3">Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas viverra. Fermentum sed amet eget elementum volutpat amet augue. Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas viverra. Fermentum sed amet eget elementum volutpat amet augue.</p>
+                    <div class="py-4">
+                        <a class="btn-about">Contact Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12 d-flex justify-content-center justify-content-lg-start">
+                    <div class="card contact">
+                        <div class="card-body">
+    <h5 class="card-title fw-bold">Contact Us!</h5>
+    <div class="row mb-3">
+        <div class="col-auto me-2">
+            <i class="bi bi-envelope" style="font-size: 30px;"></i>
+        </div>
+        <div class="col d-flex align-items-center">
+            <div>
+                <span class="mb-0 fw-bold">Email</span><br>
+                <span class="card-text">ecotourtravelkarimunjawa@gmail.com</span><br>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-auto me-2">
+            <i class="bi bi-telephone" style="font-size: 30px;"></i>
+        </div>
+        <div class="col d-flex align-items-center">
+            <div>
+                <span class="mb-0 fw-bold">Phone</span><br>
+                <span class="card-text">0858-0038-1815</span><br>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-auto me-2">
+            <i class="bi bi-geo-alt" style="font-size: 30px;"></i>
+        </div>
+        <div class="col d-flex align-items-center">
+            <div>
+                <span class="mb-0 fw-bold">Address</span><br>
+                <span class="card-text">Jl. Bukit Kapuran, Karimunjawa, RT 04 RW 01 Jepara, Jawa Tengah, Indonesia</span><br>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    </div>                            
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Trainer Section -->
+<section id="trainer" class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 mb-4 mb-md-0 heading-trainer">
+                <img src="img/img-section-3.png" alt="Gambar Trainer" class="img-fluid">
+            </div>
+            <div class="col-lg-7 col-md-12 d-flex align-items-center">
+                <div class="heading-trainer">
+                    <h1>Trainer Professional</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas viverra. Fermentum sed amet eget elementum volutpat amet augue.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6">
+                <div class="text-trainer">
+                    <h2>Cevalline Hyen</h2>
+                    <img src="img/trainer-1.png" alt="Trainer 1" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="text-trainer">
+                    <h2>Step Hanson</h2>
+                    <img src="img/trainer-2.png" alt="Trainer 2" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="text-trainer">
+                    <h2>Angela Traine</h2>
+                    <img src="img/trainer-3.png" alt="Trainer 3" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="text-trainer">
+                    <h2>Robert Bert</h2>
+                    <img src="img/trainer-4.png" alt="Trainer 4" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Review Section -->
+<section id="review" class="mt-5">
+    <div class="container">
+        <h1 class="text-center mb-5">They Are Happy Members</h1>
+        <div class="row card-review justify-content-center"> <!-- Menambahkan kelas justify-content-center -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4">
+                                <img src="img/member1.png" class="card-img-top rounded-circle" alt="Foto Member 1">
+                            </div>
+                            <div class="col-lg-8 d-flex align-items-center">
+                                <div class="col-12">
+                                    <span class="card-title fw-bold">Phone</span><br>
+                                    <span class="card-subtitle mb-2 text-muted">Teacher</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="card-text py-2">Lorem ipsum dolor sit amet consecasatetur. Natoque sed dui odio urna lectus enim feugiat justo.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4">
+                                <img src="img/member2.png" class="card-img-top rounded-circle" alt="Foto Member 1">
+                            </div>
+                            <div class="col-lg-8 d-flex align-items-center">
+                                <div class="col-12">
+                                    <span class="card-title fw-bold">Jessica</span><br>
+                                    <span class="card-subtitle mb-2 text-muted">CEO</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="card-text py-2">Lorem ipsum dolor sit amet consecasatetur. Natoque sed dui odio urna lectus enim feugiat justo.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4">
+                                <img src="img/member3.png" class="card-img-top rounded-circle" alt="Foto Member 1">
+                            </div>
+                            <div class="col-lg-8 d-flex align-items-center">
+                                <div class="col-12">
+                                    <span class="card-title fw-bold">Ozzie</span><br>
+                                    <span class="card-subtitle mb-2 text-muted">Teacher</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="card-text py-2">Lorem ipsum dolor sit amet consecasatetur. Natoque sed dui odio urna lectus enim feugiat justo.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Footer Section -->
+<section id="footer" class="mt-3">
+    <div class="container-fluid bg-member">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12">
+                    <h1>Join Our Member Now!</h1>
+                </div>
+                <div class="col-lg-6 col-md-12 text-lg-end mt-lg-0 text-center mb-3"> 
+                    <a class="btn btn-contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container-fluid bg-footer">
+        <div class="d-flex justify-content-center pt-5">
+            <a href=""><img src="img/logo.png" alt="Logo" class="img-fluid me-3"></a>
+        </div>
+        <nav class="navbar navbar-expand navbar-dark justify-content-center text-center">
+            <ul class="navbar-nav flex-column flex-md-row"> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trainer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Program</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <hr class="my-3">
+        <p class="text-center pt-2 mb-0">&#169; 2023 Fitness. All rights reserved.</p>
+    </div>
+</section>
+
+
+
+
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
